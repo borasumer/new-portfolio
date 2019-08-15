@@ -1,0 +1,40 @@
+<!-- LEFTPART -->
+<div class="arlo_tm_leftpart_wrap">
+    <div class="leftpart_inner">
+        <div class="logo_wrap">
+            <a href="#"><img src="{{global.logo.mylogo}}" alt="" /></a>
+        </div>
+        <div class="menu_list_wrap">
+            <ul class="anchor_nav">
+                <li><a href="#home"> &nbsp;<span class="arlo_menu_type">home();</span> </a></li>
+                <li><a href="#about"> &nbsp;<span class="arlo_menu_type_about">about();</span> </a></li>
+                <li><a href="#portfolio"> &nbsp;<span class="arlo_menu_type_portfolio">portfolio();</span> </a></li>
+                <li><a href="#contact"> &nbsp;<span class="arlo_menu_type_contact">contact();</span> </a></li>
+            </ul>
+        </div>
+        <div class="leftpart_bottom">
+            <div class="social_wrap">
+                <ul>
+                {{#global.social.facebook.visible}}
+                    <li><a target="_blank" href="{{global.social.facebook.url}}"><i class="xcon-{{global.social.facebook.icon}}"></i></a></li>
+                {{/global.social.facebook.visible}}
+
+                {{#global.social.twitter.visible}}
+                    <li><a target="_blank" href="{{global.social.twitter.url}}"><i class="xcon-{{global.social.twitter.icon}}"></i></a></li>
+                {{/global.social.twitter.visible}}
+
+                {{#global.social.instagram.visible}}
+                    <li><a target="_blank" href="{{global.social.instagram.url}}"><i class="xcon-{{global.social.instagram.icon}}"></i></a></li>
+                {{/global.social.instagram.visible}}
+
+                {{#global.social.linkedin.visible}}
+                    <li><a target="_blank" href="{{global.social.linkedin.url}}"><i class="xcon-{{global.social.linkedin.icon}}"></i></a></li>
+                {{/global.social.linkedin.visible}}
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+</div>
+		<!-- /LEFTPART -->

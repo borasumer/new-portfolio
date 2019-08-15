@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+
+
+<head>
+
+	{{>head}}
+
+</head>
+
+<body>
+
+<!-- WRAPPER ALL -->
+<div class="arlo_tm_wrapper_all">
+{{>mobile-menu}}
+	
+    <!-- CONTENT -->
+	<div class="arlo_tm_content">
+		
+		{{>sidebar}}
+		
+		<!-- RIGHTPART -->
+		<div class="arlo_tm_rightpart">
+			<div class="rightpart_inner">
+				<div class="arlo_tm_section" id="home">
+					<div class="arlo_tm_hero_header_wrap">
+						<div class="arlo_tm_universal_box_wrap">
+							<div class="bg_wrap">
+								<video id="v0" loop muted autoplay metadata width="100%" height="100%">
+									<source src="{{page.bgv2}}" >
+								</video>
+							</div>
+							<div class="content hero">
+								<div class="inner_content">
+									<div class="image_wrap">
+										<img src="{{page.profile.img_avatar}}" alt="" />
+									</div>
+									<div class="name_holder">
+										<h3>{{page.profile.firstName}} <span>{{page.profile.lastName}}</span></h3>
+									</div>
+									<div class="text_typing">
+										<p> &nbsp;<span class="arlo_tm_animation_text_word"></span></p>
+									</div>
+								</div>
+							</div>
+							<div class="arlo_tm_arrow_wrap bounce anchor">
+								<a href="#about"><i class="xcon-angle-double-down"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- ABOUT -->
+				{{>about}}
+				<!-- /ABOUT -->
+				
+				<!-- SKILLS -->
+				{{>skills}}
+				<!-- /SKILLS -->
+				
+				<!-- SERVICES -->
+				{{! {{>services}}
+				<!-- /SERVICES -->
+				
+				<!-- PORTFOLIO -->
+				{{>portfolio}}
+				<!-- /PORTFOLIO -->
+				
+				<!-- TESTIMONIALS -->
+				{{! {{>testimonials}}
+				<!-- /TESTIMONIALS -->
+				
+				<!-- COUNTERBOX -->
+				
+				<!-- /COUNTERBOX -->
+				
+				<!-- NEWS -->
+
+				<!-- /NEWS -->
+
+				{{>footer}}
+				
+			</div>
+		</div>
+		<!-- /RIGHTPART -->
+		
+		
+		
+	</div>
+</div>
+<!-- / WRAPPER ALL -->
+
+    <script type="text/javascript">
+    var frameNumber = 0, // start video at frame 0
+    // lower numbers = faster playback
+    playbackConst = 500,
+    //get page height from video duration
+    //setHeight = document.getElementById("v0");
+    // select video element
+    vid = document.getElementById('v0');
+    // var vid = $('#v0')[0]; // jquery option
+
+// dynamically set the page height according to video length
+	
+
+
+// Use requestAnimationFrame for smooth playback
+function scrollPlay(){
+  var frameNumber  = window.pageYOffset/playbackConst*3;
+  vid.currentTime  = frameNumber;
+  window.requestAnimationFrame(scrollPlay);
+}
+
+window.requestAnimationFrame(scrollPlay);
+
+    </script>
+	
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
+<script src="js/plugins.js"></script>
+<script src="js/init.js"></script>
+<!-- /SCRIPTS -->
+
+</body>
+</html>
