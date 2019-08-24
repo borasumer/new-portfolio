@@ -13,7 +13,7 @@
         "subheader": "Learn more about me",
         "greeting": "I am a software developer",
         "bio": "Hi! My name is Bora Sumer. I am currently a Computer Programming Co-op Student attending Georgian College, looking to finish my last year in 2020. During my two years of studies, I've learned to become proficient in HTML5, CSS3, JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB, GraphQL and REST, among other languages, and have also had opportunities working on free lance projects, that include developing websites for established businesses (Fu Associates) and designing Apps. During my last Co-op experience at Suzuki, I was tasked with creating a sales application for the company's order page, in order to execute efficient and complex online orders. I am dedicated at honing my skills and knowledge, and have been successful throughout my experience, in finding technical solutions to implement projects from conception of design to completion. Please feel free to view all my projects in \"Portfolio\" section.",
-        "img_portrait": "",
+        "img_portrait": "https://storage.turbo360.co/portfolio-website-dxiyn8/portfolio-img2",
         "resume": {
             "button": "Download Resume",
             "url": "https://storage.turbo360.co/portfolio-website-dxiyn8/RESUME%20NEW.docx"
