@@ -1,26 +1,22 @@
 {
-    "img_background_hero":"https://lh3.googleusercontent.com/kqwFWomdc2qhN6Tf98IiA2rihkrYaIbkZZROC3LwCXIaNjJl9t4K4l0zNpT9v98JVZpFqoueMTkS5HSIMeEqE78PEA=s1200",
-    "bgv":"https://storage.turbo360.co/portfolio-website-dxiyn8/video.mp4",
-    "bgv2":"https://storage.turbo360.co/portfolio-website-dxiyn8/Black%20-%2013495.mp4",
-    "bgv3":"https://storage.turbo360.co/portfolio-website-dxiyn8/Network%20-%2012716.mp4",
-        
-
-    "profile":{
+    "img_background_hero": "https://lh3.googleusercontent.com/kqwFWomdc2qhN6Tf98IiA2rihkrYaIbkZZROC3LwCXIaNjJl9t4K4l0zNpT9v98JVZpFqoueMTkS5HSIMeEqE78PEA=s1200",
+    "bgv": "https://storage.turbo360.co/portfolio-website-dxiyn8/video.mp4",
+    "bgv2": "https://storage.turbo360.co/portfolio-website-dxiyn8/Black%20-%2013495.mp4",
+    "bgv3": "https://storage.turbo360.co/portfolio-website-dxiyn8/Network%20-%2012716.mp4",
+    "profile": {
         "firstName": "Bora",
         "lastName": "Sumer",
         "img_avatar": "https://storage.turbo360.co/portfolio-website-dxiyn8/portfolio1"
-        
     },
-
     "section1": {
         "header": "Welcome",
-        "subheader":"Learn more about me",
-        "greeting":"I am a software developer",
-        "bio":"Hi! My name is Bora Sumer. I am a Computer Programming Student at Georgian College and have been working hard to improve my development skills and my knowledge. I have been taking courses and doing school projects in the college as well as I do my own projects. In addition to that, I have a Co-op experience that I developed a web application for the company. You can see all my projects in \"Portfolio\" section. ",
-        "img_portrait":"",
+        "subheader": "Learn more about me",
+        "greeting": "I am a software developer",
+        "bio": "Hi! My name is Bora Sumer. I am currently a Computer Programming Co-op Student attending Georgian College, looking to finish my last year in 2020. During my two years of studies, I've learned to become proficient in HTML5, CSS, Java, NodeJS, ExpressJS, MongoDB, among other languages, and have also had opportunities working on free lance projects, that include developing websites for established businesses (Fu Associates) and designing Apps (React App). During my last Co-op experience at Suzuki, I was tasked with creating a sales drop-down menu application for the company's order page, in order to execute efficient and complex online orders using (programming code). I am dedicated at honing my skills and knowledge, and have been successful throughout my experience, in finding technical solutions to implement projects from conception of design to completion. Please feel free to view all my projects in \"Portfolio\" section.",
+        "img_portrait": "",
         "resume": {
-            "button":"Download Resume",
-            "url":"https://storage.turbo360.co/portfolio-website-dxiyn8/RESUME%20NEW.docx"
+            "button": "Download Resume",
+            "url": "https://storage.turbo360.co/portfolio-website-dxiyn8/RESUME%20NEW.docx"
         }
     }
 }
