@@ -1,34 +1,32 @@
 {
-    "title":"Bora Sumer Portfolio",
+    "title": "Bora Sumer Portfolio",
     "social": {
-
-        "facebook":{
-            "visible":true,
-            "icon":"facebook",
-            "url":"https://www.facebook.com/brsmr"
-
+        "facebook": {
+            "visible": true,
+            "icon": "facebook",
+            "url": "https://www.facebook.com/brsmr"
         },
         "twitter": {
             "visible": true,
             "icon": "twitter",
             "url": "https://www.twitter.com/allrational"
-
         },
         "instagram": {
             "visible": true,
             "icon": "instagram",
             "url": "https://www.instagram.com/bsumer"
-
         },
         "linkedin": {
             "visible": true,
             "icon": "linkedin",
             "url": "https://www.linkedin.com/in/borasumer/"
-
+        },
+        "youtube": {
+            "visible": true,
+            "icon": "youtube",
+            "url": "https://www.instagram.com/bsumer"
         }
-        
     },
-
     "logo": {
         "mylogo": "https://storage.turbo360.co/portfolio-website-dxiyn8/ezgif.com-gif-maker.gif",
         "mobilelogo": "https://storage.turbo360.co/portfolio-website-dxiyn8/mymobilelogo.gif"
